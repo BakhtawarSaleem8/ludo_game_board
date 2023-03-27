@@ -32,6 +32,15 @@
 .box4{
     grid-column: 1/2;
     grid-row: 2/3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.box4 div{
+    border:1px solid black;
+} 
+.box4 div.reds{
+    background: red;
 }
 .box5{
     grid-column: 2/ 3;
@@ -39,8 +48,17 @@
 }
 .box6{
     grid-column: 3/ 4;
-    grid-row: 2/3;
-}
+    grid-row: 2/3; 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    }
+    .box6 div{
+        border:1px solid black;
+    }
+    .box6 div.yellow{
+        background: yellow;
+    }
 .box7{
     grid-column: 1/ 2;
     grid-row: 3/4;
@@ -48,7 +66,16 @@
 .box8{
     grid-column: 2/ 3;
     grid-row: 3/4;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.box8 div{
+    border:1px solid black;
+    }
+    .box8 div.blues{
+        background: blue;
+    }
 .box9{
     grid-column: 3/ 4;
     grid-row: 3/4;
