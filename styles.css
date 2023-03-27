@@ -1,0 +1,283 @@
+.wrapper{
+    height:1200px;
+    width:1200px;
+    display: grid;
+    grid-template-columns:40% 20% 40%;
+    grid-template-rows:40% 20% 40%;
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+}
+.griditems{
+    border: 1px solid black;
+    /* background-color: aqua; */
+}
+.box1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display:flex;
+    background:red;
+    justify-content: center;
+    align-items: center;
+}
+.box1 div.sqr{
+    height:60%;
+    width:60%;
+    background: white;
+    position:relative;
+}
+.box1 div.sqr :nth-child(1){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: red;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.box1 div.sqr :nth-child(2){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: red;
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+.box1 div.sqr :nth-child(3){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: red;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+}
+.box1 div.sqr :nth-child(4){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: red;
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+.box2{
+      grid-column:2/3; 
+      grid-row: 1/2;
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+.box3{
+    grid-column: 3/4;
+     grid-row: 1/2;
+     display:flex;
+    background:green;
+    justify-content: center;
+    align-items: center;
+}
+.box3 div.sqr{
+    height:60%;
+    width:60%;
+    background: white;
+    position:relative;
+}
+.box3 div.sqr :nth-child(1){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: green;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.box3 div.sqr :nth-child(2){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: green;
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+.box3 div.sqr :nth-child(3){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: green;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+}
+.box3 div.sqr :nth-child(4){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: green;
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+.box4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.box4 div{
+    border:1px solid black;
+} 
+.box4 div.reds{
+    background: red;
+}
+.box5{
+    grid-column: 2/ 3;
+    grid-row: 2/3;
+}
+.box6{
+    grid-column: 3/ 4;
+    grid-row: 2/3; 
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    }
+    .box6 div{
+        border:1px solid black;
+    }
+    .box6 div.yellow{
+        background: yellow;
+    }
+.box7{
+    grid-column: 1/ 2;
+    grid-row: 3/4;
+    display:flex;
+    background:blue;
+    justify-content: center;
+    align-items: center;
+}
+.box7 div.sqr{
+    height:60%;
+    width:60%;
+    background: white;
+    position:relative;
+}
+.box7 div.sqr :nth-child(1){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: blue;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.box7 div.sqr :nth-child(2){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: blue;
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+.box7 div.sqr :nth-child(3){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: blue;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+}
+.box7 div.sqr :nth-child(4){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: blue;
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+.box8{
+    grid-column: 2/ 3;
+    grid-row: 3/4;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.box8 div{
+    border:1px solid black;
+    }
+    .box8 div.blues{
+        background: blue;
+    }
+.box9{
+    grid-column: 3/ 4;
+    grid-row: 3/4;
+    display:flex;
+    background:yellow;
+    justify-content: center;
+    align-items: center;
+} 
+.box9 div.sqr{
+    height:60%;
+    width:60%;
+    background: white;
+    position:relative;
+}
+.box9 div.sqr :nth-child(1){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: yellow;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.box9 div.sqr :nth-child(2){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: yellow;
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+.box9 div.sqr :nth-child(3){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: yellow;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+}
+.box9 div.sqr :nth-child(4){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: yellow;
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
+.box2 div{
+    border:1px solid black;
+}
+.box2 div.green{
+    background:green;
+}
+.box2 div.green :first-child{
+     width: 50px;
+    height: 40px; 
+    background: white;
+    border-radius:50%;
+    margin:auto;
+}
+.box5 {
+    border-left: 20px solid red;
+    border-right: 20px solid yellow;
+    border-bottom: 20px solid blue;
+    border-top:20px solid green;
+}
