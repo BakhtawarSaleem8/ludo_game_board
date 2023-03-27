@@ -8,7 +8,7 @@
     grid-row-gap: 10px; */
 }
 .griditems{
-    border: 1px solid red;
+    border: 1px solid white;
     /* background-color: aqua; */
 }
 .box1{
@@ -72,6 +72,52 @@
 .box3{
     grid-column: 3/4;
      grid-row: 1/2;
+     display:flex;
+    background:green;
+    justify-content: center;
+    align-items: center;
+}
+.box3 div.sqr{
+    height:60%;
+    width:60%;
+    background: white;
+    position:relative;
+}
+.box3 div.sqr :nth-child(1){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: green;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.box3 div.sqr :nth-child(2){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: green;
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+.box3 div.sqr :nth-child(3){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: green;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+}
+.box3 div.sqr :nth-child(4){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: green;
+    position:absolute;
+    right:30px;
+    bottom:30px;
 }
 .box4{
     grid-column: 1/2;
@@ -106,6 +152,52 @@
 .box7{
     grid-column: 1/ 2;
     grid-row: 3/4;
+    display:flex;
+    background:blue;
+    justify-content: center;
+    align-items: center;
+}
+.box7 div.sqr{
+    height:60%;
+    width:60%;
+    background: white;
+    position:relative;
+}
+.box7 div.sqr :nth-child(1){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: blue;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.box7 div.sqr :nth-child(2){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: blue;
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+.box7 div.sqr :nth-child(3){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: blue;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+}
+.box7 div.sqr :nth-child(4){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: blue;
+    position:absolute;
+    right:30px;
+    bottom:30px;
 }
 .box8{
     grid-column: 2/ 3;
@@ -123,7 +215,53 @@
 .box9{
     grid-column: 3/ 4;
     grid-row: 3/4;
+    display:flex;
+    background:yellow;
+    justify-content: center;
+    align-items: center;
 } 
+.box9 div.sqr{
+    height:60%;
+    width:60%;
+    background: white;
+    position:relative;
+}
+.box9 div.sqr :nth-child(1){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: yellow;
+    position:absolute;
+    left:30px;
+    top:30px;
+}
+.box9 div.sqr :nth-child(2){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: yellow;
+    position:absolute;
+    right:30px;
+    top:30px;
+}
+.box9 div.sqr :nth-child(3){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: yellow;
+    position:absolute;
+    left:30px;
+    bottom:30px;
+}
+.box9 div.sqr :nth-child(4){
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+    background: yellow;
+    position:absolute;
+    right:30px;
+    bottom:30px;
+}
 .box2 div{
     border:1px solid black;
 }
@@ -136,4 +274,10 @@
     background: white;
     border-radius:50%;
     margin:auto;
+}
+.box5 {
+    border-left: 20px solid red;
+    border-right: 20px solid yellow;
+    border-bottom: 20px solid blue;
+    border-top:20px solid green;
 }
